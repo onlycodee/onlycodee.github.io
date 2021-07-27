@@ -744,7 +744,7 @@ h2.title:before {
 }
 
 .panel-body ul {
-    padding-left: 20px;
+    padding-left: 5px;
 }
 
 .panel-body ul li a {
@@ -874,7 +874,7 @@ h2.title {
 }
 
 .productinfo img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .productinfo {
