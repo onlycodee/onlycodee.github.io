@@ -10,7 +10,17 @@ body {
     position: relative;
     font-weight: 400px;
 }
+#main_content{
+    /* background-color: #F7F7F7; */
+}
 
+#header .header-middle {
+    background-image: url("/img/home/bg_navbar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 170px;
+}
 ul li {
     list-style: none;
 }
