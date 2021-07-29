@@ -40,7 +40,7 @@ $(document).ready(function () {
                     console.log('name: ' + name + ' curindex: ' + curIndex);
                     $("#product-list").attr('src', imagePath + name + `/${curIndex}.png`);
                     $('html, body').animate({
-                            scrollTop: $("#product-list").offset().top
+                            scrollTop: $("#product-list").offset().top - 150
                         }, 500);
                 });
             })(name, curIndex);
