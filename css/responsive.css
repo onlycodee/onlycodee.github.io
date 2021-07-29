@@ -6,6 +6,11 @@
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .detail-info{
+        position: absolute;
+        height: 25px;
+        width: auto;
+    }
     .header-middle .btn-group .btn {
         padding-left: 8px;
         padding-right: 8px;
@@ -41,13 +46,18 @@
         text-align: center;
         /* margin-bottom: 150px; */
     }
+    .shop-menu ul li a {
+        padding-left: 0;
+        margin-top: 25px;
+    }
     .shop-menu ul{
         display: inline-block;
         float: none;
     }
-    .shop-menu ul li a {
-        padding-left: 0;
-        margin-top: 25px;
+    .detail-info{
+        position: absolute;
+        height: 25px;
+        width: auto;
     }
     #slider-carousel .item {
         padding-left: 30px;
@@ -117,6 +127,23 @@
 /* xs */
 
 @media (max-width: 767px) {
+    .detail-info{
+        position: absolute;
+        height: 25px;
+        width: auto;
+    }
+    .phone{
+        top: 80%;
+        left: 10%;
+    }
+    .fb{
+        top: 80%;
+        left: 28%;
+    }
+    .address-info{
+        top: 80%;
+        left: 46%;
+    }
     #cart_items .cart_info table{
         min-width: 600px;
     }
@@ -334,6 +361,7 @@
     }
     .shop-menu .nav.navbar-nav {
         margin-left: 0;
+        margin-top: 0;
     }
     .btn-group>.btn-group:last-child>.btn:first-child {
         margin-right: 0;
@@ -483,5 +511,39 @@
     }
     .product-information span span {
         float: none;
+    }
+    .detail-info{
+        position: absolute;
+        height: 15px;
+        width: auto;
+    }
+    .detail-info{
+        position: absolute;
+        height: 20px;
+        width: auto;
+    }
+    .phone{
+        top: 80%;
+        left: 10%;
+    }
+    .fb{
+        top: 80%;
+        left: 37%;
+    }
+    .address-info{
+        top: 80%;
+        left: 65%;
+    }
+    #product-list{
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    #sale{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 100;
+        width: 10%;
+        height: auto;
     }
 }

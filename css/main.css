@@ -13,6 +13,45 @@ body {
 #main_content{
     /* background-color: #F7F7F7; */
 }
+.product-info{
+    position: relative;
+    display: block;
+}
+#product-list{
+    padding-top: 25px;
+    padding-right: 15px;
+}
+#sale{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.intro-img-holder {
+    position: relative;
+    display: block;
+} 
+.detail-info{
+    position: absolute;
+    height: 35px;
+    width: auto;
+}
+#footer{
+    color:#035d54;
+}
+.phone{
+    top: 80%;
+    left: 10%;
+}
+.fb{
+    top: 80%;
+    left: 25%;
+}
+.address-info{
+    top: 80%;
+    left: 40%;
+}
 
 #header .header-middle .container {
     background-image: url("/img/home/bg_navbar.png");
@@ -28,6 +67,9 @@ ul li {
     font-size: 12px;
     padding-bottom: 8px;   
     list-style: none;
+}
+.funcBtn{
+    color: #035d54;
 }
 
 .funcBtn:active{

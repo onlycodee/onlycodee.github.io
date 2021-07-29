@@ -39,6 +39,9 @@ $(document).ready(function () {
                 $(`#${cnt}`).on("click", function() {
                     console.log('name: ' + name + ' curindex: ' + curIndex);
                     $("#product-list").attr('src', imagePath + name + `/${curIndex}.png`);
+                    $('html, body').animate({
+                            scrollTop: $("#product-list").offset().top
+                        }, 500);
                 });
             })(name, curIndex);
             cnt++;
