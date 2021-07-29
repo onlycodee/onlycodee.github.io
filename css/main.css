@@ -14,15 +14,26 @@ body {
     /* background-color: #F7F7F7; */
 }
 
-#header .header-middle {
+#header .header-middle .container {
     background-image: url("/img/home/bg_navbar.png");
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
-    background-origin: content-box;
-    height: 170px;
+    background-position: top;
+    min-height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 ul li {
+    font-size: 12px;
+    padding-bottom: 8px;   
     list-style: none;
+}
+
+.funcBtn:active{
+}
+.funcBtn:focus{
+    text-decoration: underline;
 }
 
 a:hover {
@@ -105,7 +116,7 @@ a#scrollUp i {
 .social-icons ul li a {
     border: 0 none;
     border-radius: 0;
-    color: #696763;
+    color: #035D54;
     padding: 0px;
 }
 
@@ -150,11 +161,11 @@ a#scrollUp i {
 }
 
 .header-middle .container .row {
-    border-bottom: 1px solid #f5f5f5;
+    /* border-bottom: 1px solid #f5f5f5; */
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .header-middle .container .row .col-sm-4 {
@@ -210,17 +221,17 @@ a#scrollUp i {
 
 .shop-menu ul li:last-child {
     padding-right: 0;
+    /* margin-right: 170px; */
 }
 
 .shop-menu ul li a {
-    background: #FFFFFF;
     color: #035d54;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
     padding: 0;
     padding-right: 0;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .shop-menu ul li a i {
@@ -665,7 +676,7 @@ ul.sub-menu {
 .brands_products h2 {
     color: #035d54;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
     margin: 0 auto 30px;
     text-align: center;
@@ -727,7 +738,7 @@ h2.title:before {
 }
 
 .category-products .panel-default .panel-heading .panel-title a {
-    color: #696763;
+    color: #035d54;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-decoration: none;

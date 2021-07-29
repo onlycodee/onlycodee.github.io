@@ -19,7 +19,7 @@ $(document).ready(function () {
                             <div class="panel-body">\
                                 <ul>`;
         for (var j = 0; j < functions[i].length; j++) {
-            compo += `<li id="${cnt++}" class="btn">${functions[i][j]}</li>`;
+            compo += `<li id="${cnt++}" ><button class="funcBtn" style="background-color: white; border: none;">${functions[i][j]}</button></li>`;
         }
         compo += `</ul></div></div></div>`;
                     //             </ul>\

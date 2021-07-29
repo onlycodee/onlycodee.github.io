@@ -17,8 +17,7 @@ var functions = [
         "PHỤC HỒI MÀNG DA",
         "TRỊ MỤN , SE NHỎ CHÂN LÔNG",
         "CHĂM SÓC CƠ THỂ",
-        "KHÔI PHỤC ĐỘ ẨM",
-        "CHỐNG OXY HÓA",
+        "KHÔI PHỤC ĐỘ ẨM, CHỐNG OXY HÓA",
         "TÁI TẠO TRẺ HÓA DA",
         "ĐIỀU TRỊ SẮC TỐ",
         "CHỐNG LÃO HÓA CHUYÊN SÂU"
