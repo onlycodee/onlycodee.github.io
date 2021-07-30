@@ -1,4 +1,4 @@
-var productNames = ["OBAGI - ELASTIDERM", "MARTIDERM", "DERMAFIRM", "GOODNDOC", "LA ROCHE-POSAY", "EUCERIN"];
+var productNames = ["OBAGI", "MARTIDERM", "DERMAFIRM", "GOODNDOC", "LA ROCHE-POSAY", "EUCERIN"];
 var functions = [
     [
     "NGĂN NGỪA LÃO HÓA",
