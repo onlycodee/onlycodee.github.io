@@ -127,6 +127,9 @@
 /* xs */
 
 @media (max-width: 767px) {
+    #header .header-middle .container {
+        height: 37px;
+    }
     .detail-info{
         position: absolute;
         height: 25px;
@@ -154,8 +157,10 @@
         font-size: 12px;
     }
     .shop-menu ul li a {
-        padding-left: 0;
+        padding-left: 0px;
+        padding-right: 10px;
         margin-top: 10px;
+        font-size: 10px;
     }
     .mainmenu ul li:first-child{
         padding-left: 15px;
@@ -353,7 +358,8 @@
         width: 100%;
     }
     .shop-menu ul li {
-        padding: 0 5px;
+        padding: 0 0px;
+        font-size: 10px;
     }
     .header-middle .col-sm-4 {
         text-align: center;
@@ -545,5 +551,8 @@
         z-index: 100;
         width: 10%;
         height: auto;
+    }
+    #header .header-middle .container {
+        height: 33px;
     }
 }

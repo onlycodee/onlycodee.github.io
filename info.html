@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Bác sĩ Thu Hà - Chuyên gia chăm sóc thẩm mĩ</title>
+	<link rel="icon" href="/img/home/icon_2.png" type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -17,11 +18,6 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body>
@@ -70,47 +66,26 @@
 	
 	<section id="main_content">
 		<div class="container">
+			<div class="row text-center" style="margin-bottom: 25px;">
+				<img src="/img/info/logo.png" width="auto" height="auto"> 
+			</div>
 			<div class="row">
-		<!-- <button style="background-color: white; border: none;">This is button</button> -->
-				<div class="col-sm-3">
-					<div class="left-sidebar">
-						<h2>Danh mục sản phẩm</h2>
-						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
-						</div><!--/category-products-->
+				<div id="info-detail">
+					<div class="info-line">
+						Tôi là BÁC SĨ : NGUYỄN THU HÀ, chuyên gia chăm sóc da thẩm mỹ đã có nhiều năm kinh nghiệm trong việc điều trị da mặt về 
+						mụn, nám, tàn nhang, sẹo, rỗ, đồi mồi.v.v và nhiều triệu chứng về da mặt khác.
+						Chúng tôi đem tới cho khách hàng sự tự tin trong cuộc sống cũng như đó là trách nhiệm của các bác sĩ chăm sóc da thẩm mỹ.
+					</div>
+					<div class="info-line">
+						Cơ sở trị liệu chính của BÁC SĨ THU HÀ nằm ở : 430 Đường Vạn Phúc , Hà Đông ( Cạnh chung cư Gold Silk,check Google Map )
+					</div>
+					<div class="info-line">
+						Đừng để làn da của bạn phải chịu đựng thêm nữa,hãy để chúng tôi giải quyết cho bạn
 					</div>
 				</div>
-				
-				<div class="col-sm-9 padding-right">
-					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">DANH SÁCH SẢN PHẨM TRỊ LIỆU</h2>
-						<div class="col-sm-12">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-										<div class="productinfo text-center">
-											<a id= "main-img" href="https://www.facebook.com/B%C3%A1c-S%C4%A9-Thu-H%C3%A0-1896362813745162" target='_blank'>
-												<img id="product-list" src="img/products/ob/1.png" width="100%" alt="" />
-											</a>
-											<img id="sale" src="img/home/sale.png" width="100" height="100" alt="" />
-											<!-- <p>Easy Polo Black Edition</p> -->
-											<!-- <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a> -->
-										</div>
-										<div class="text-center">
-											<a href="https://www.facebook.com/B%C3%A1c-S%C4%A9-Thu-H%C3%A0-1896362813745162" target='_blank'>
-												<img id="buy_now" src="img/home/buy_small.png" alt="" />
-											</a>
-										</div>
-										<!-- <div class="product-overlay">
-											<div class="overlay-content">
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div> -->
-								</div>
-							</div>
-						</div>
-					</div><!--features_items-->
-				</div>
+			</div>
+			<div class="row">
+				<img src="img/info/info.png" width="100%">
 			</div>
 		</div>
 	</section>
@@ -167,5 +142,11 @@
     <script src="js/main.js"></script>
     <script src="js/data.js"></script>
 	<script src="js/changeImage.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var divLoc = $('#main_content').offset();
+		$('html, body').animate({scrollTop: divLoc.top}, 1000);
+	});
+	</script>
 </body>
 </html>

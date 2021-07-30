@@ -9,6 +9,17 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
     font-weight: 400px;
+    color: #035d54;
+}
+#info-detail{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.info-line{
+    padding-bottom: 20px;
 }
 #main_content{
     /* background-color: #F7F7F7; */
@@ -52,16 +63,27 @@ body {
     top: 80%;
     left: 40%;
 }
+#footer{
+    font-size: 13px;
+}
+
+#buy_now{
+    animation: scale .5s alternate infinite linear;
+}
+/* The animation code */
+@keyframes scale {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
 
 #header .header-middle .container {
     background-image: url("/img/home/bg_navbar.png");
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-    min-height: 100px;
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
+    height:100px
 }
 ul li {
     font-size: 12px;
@@ -116,11 +138,11 @@ h6 {
 a#scrollUp {
     bottom: 0px;
     right: 10px;
-    padding: 5px 10px;
-    background: #FE980F;
+    padding: 2px 8px;
+    background: #035d54;
     color: #FFF;
-    -webkit-animation: bounce 2s ease infinite;
-    animation: bounce 2s ease infinite;
+    /* -webkit-animation: bounce 2s ease infinite;
+    animation: bounce 2s ease infinite; */
 }
 
 a#scrollUp i {
@@ -132,7 +154,6 @@ a#scrollUp i {
 *******Header CSS******
 **************************/
 #header div div{
-    background-image: url("/img/home/bg_header.png");
     background-repeat: no-repeat;/* Determine what direction the image will repeat */
     background-position: 0 0 0 0; /* Where the image will be positioned relative to "top, right, bottom, and/or left */
 }
@@ -206,7 +227,7 @@ a#scrollUp i {
     /* border-bottom: 1px solid #f5f5f5; */
     margin-left: 0;
     margin-right: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-top: 0px;
 }
 
@@ -625,7 +646,7 @@ ul.sub-menu {
 **************************/
 
 #slider {
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
 }
 
 .carousel-indicators li {
@@ -2507,4 +2528,8 @@ textarea {
 
 .contact-info .social-networks ul li a:hover {
     color: #FE980F;
+}
+
+#header{
+    /* height: 33px; */
 }
